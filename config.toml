@@ -1,0 +1,39 @@
+baseURL = "https://evanemily.com"
+languageCode = "en-us"
+title = "Evan and Emily Wedding"
+theme = "spectral"
+
+[params]
+fancytitle = "Evan Farrell + Emily Waterman"
+description = "Cazenovia, NY <br/ ><br />May 25th 2019"
+startbuttonLink = "#registry"
+startbuttonText = "Registry"
+copyright = "Evan Farrell"
+
+[params.one]
+enable = true
+title = "Come Celebrate with us"
+body = "May 25th, 2018</br> Ceremony & Reception: 6PM</br>Skyline Lodge&mdash;Highland Forest"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = ""
+title = "Evan and Emily"
+body = ""
+
+[[params.two.section]]
+img = "img/evan.jpg"
+title = "Evan"
+body = "test"
+
+[[params.two.section]]
+img = "img/emily.jpg"
+title = "Emily"
+body = "test"
+
+[params.three]
+enable = true
+title = "Registry"
+body = "<a href='/registry' class='button special'>View our Registry</a>"
