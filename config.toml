@@ -6,8 +6,6 @@ theme = "spectral"
 [params]
 fancytitle = "Evan Farrell + Emily Waterman"
 description = "Cazenovia, NY <br/ ><br />May 25th 2019"
-startbuttonLink = "#registry"
-startbuttonText = "Registry"
 copyright = "Evan Farrell"
 
 [params.one]
@@ -37,3 +35,11 @@ body = "test"
 enable = true
 title = "Registry"
 body = "<a href='/registry' class='button special'>View our Registry</a>"
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+[[params.menu.main]]
+url = '/registry'
+title = "Registry"
