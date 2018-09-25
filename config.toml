@@ -24,17 +24,17 @@ body = ""
 [[params.two.section]]
 img = "img/evan.jpg"
 title = "Evan"
-body = "test"
+body = "Evan loves to build things (like our kitchen table!), and go climbing and hiking. He is a site reliability engineer at Security Scorecard. Evan met Emily when he was working in State College after college. Evan proposed to Emily on a mountain in West Virginia after they decided they wanted to get married."
 
 [[params.two.section]]
 img = "img/emily.jpg"
 title = "Emily"
-body = "test"
+body = "Emily loves to go hiking, backpacking, and birding. She is a postdoctoral scholar at University of New Hampshire who works on sexual and dating violence prevention. Emily met Evan went she was getting her PhD at Penn State. As she likes to say, \"we met online, like any self-respecting millennials.\""
 
 [params.three]
 enable = true
 title = "Registry"
-body = "<a href='/registry' class='button special'>View our Registry</a>"
+body = "<p>Visit again soon for things to do.</p><a href='/registry' class='button special'>View our Registry</a>"
 
 [[params.menu.main]]
 url = '/'

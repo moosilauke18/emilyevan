@@ -9,7 +9,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font-family: 'Raleway', sans-serif;
   vertical-align: baseline; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1084,7 +1084,7 @@ body {
 @-ms-viewport {
   width: device-width; }
 body {
-  background: #2e3842; }
+  background: #36363b; }
   body.is-loading *, body.is-loading *:before, body.is-loading *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -1097,7 +1097,7 @@ body {
 
 body, input, select, textarea {
   color: #fff;
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 15pt;
   font-weight: 400;
   letter-spacing: 0.075em;
@@ -1136,7 +1136,8 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #fff;
-  font-weight: 800;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
   letter-spacing: 0.225em;
   line-height: 1em;
   margin: 0 0 1em 0;
@@ -1300,7 +1301,7 @@ textarea {
   input[type="email"]:focus,
   select:focus,
   textarea:focus {
-    box-shadow: 0 0 0 2px #21b2a6; }
+    box-shadow: 0 0 0 2px #2db1a6; }
 
 .select-wrapper {
   text-decoration: none;
@@ -1386,12 +1387,12 @@ input[type="radio"] {
       width: 1.65em; }
   input[type="checkbox"]:checked + label:before,
   input[type="radio"]:checked + label:before {
-    background: #2e3842;
+    background: #36363b;
     color: #fff;
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
-    box-shadow: 0 0 0 2px #21b2a6; }
+    box-shadow: 0 0 0 2px #2db1a6; }
 
 input[type="checkbox"] + label:before {
   border-radius: 3px; }
@@ -1723,7 +1724,7 @@ button,
   input[type="button"].special,
   button.special,
   .button.special {
-    background-color: #ed4933;
+    background-color: #38496c;
     box-shadow: none !important;
     color: #ffffff !important; }
     input[type="submit"].special:hover,
@@ -1926,7 +1927,7 @@ button,
   .wrapper.alt {
     padding: 0; }
   .wrapper.style1 {
-    background-color: #21b2a6;
+    background-color: #ffffff;
     color: #c8ece9; }
     .wrapper.style1 strong, .wrapper.style1 b {
       color: #ffffff; }
@@ -1963,7 +1964,7 @@ button,
     .wrapper.style1 input[type="checkbox"]:checked + label:before,
     .wrapper.style1 input[type="radio"]:checked + label:before {
       background: #ffffff;
-      color: #21b2a6; }
+      color: #2db1a6; }
     .wrapper.style1 ::-webkit-input-placeholder {
       color: #a6e0db !important; }
     .wrapper.style1 :-moz-placeholder {
@@ -2013,9 +2014,9 @@ button,
       .wrapper.style1 .features li {
         border-top-color: rgba(0, 0, 0, 0.125); } }
   .wrapper.style2 {
-    background-color: #2e3842; }
+    background-color: #36363b; }
   .wrapper.style3 {
-    background-color: #505393;
+    background-color: #2db1a6;
     color: #d3d4e4; }
     .wrapper.style3 strong, .wrapper.style3 b {
       color: #ffffff; }
@@ -2052,7 +2053,7 @@ button,
     .wrapper.style3 input[type="checkbox"]:checked + label:before,
     .wrapper.style3 input[type="radio"]:checked + label:before {
       background: #ffffff;
-      color: #505393; }
+      color: #2db1a6; }
     .wrapper.style3 ::-webkit-input-placeholder {
       color: #b9bad4 !important; }
     .wrapper.style3 :-moz-placeholder {
@@ -2227,7 +2228,7 @@ button,
   -ms-transition: -ms-transform 0.5s ease;
   transition: transform 0.5s ease;
   -webkit-overflow-scrolling: touch;
-  background: #21b2a6;
+  background: #2db1a6;
   color: #ffffff;
   height: 100%;
   max-width: 80%;
@@ -2294,7 +2295,7 @@ body.is-menu-visible #menu {
   -webkit-transition: background-color 0.2s ease;
   -ms-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
-  background: #2e3842;
+  background: #36363b;
   height: 3em;
   left: 0;
   line-height: 3em;
@@ -2490,7 +2491,7 @@ body.is-menu-visible #menu {
     -ms-transition-delay: 1.25s;
     transition-delay: 1.25s;
     content: '';
-    background: #2e3842;
+    background: #36363b;
     display: block;
     width: 100%;
     height: 100%;
@@ -2697,3 +2698,7 @@ div.contact-method {
 time.icon {
   margin-left: 0.5em;
   color: gray; }
+
+#one .spotlight {
+    background-color: #2db1a6;
+}
