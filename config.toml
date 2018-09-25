@@ -34,7 +34,7 @@ body = "Emily loves to go hiking, backpacking, and birding. She is a postdoctora
 [params.three]
 enable = true
 title = "Registry"
-body = "<p>Visit again soon for things to do.</p><a href='/registry' class='button special'>View our Registry</a>"
+body = "<a href='/registry' class='button special'>View our Registry</a>"
 
 [[params.menu.main]]
 url = '/'
