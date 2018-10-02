@@ -1,0 +1,56 @@
+{{ if .Site.Params.one.enable }}
+<section id="one" class="wrapper style1 special">
+    <div class="inner">
+        <header class="major">
+            <div class="spotlight">
+                <div class="content">
+                    <h4>The Wedding</h4>
+                    <p><div>May 25th, 2019</div>
+                    <div> Ceremony & Reception: 6PM</div>
+                    <div>Skyline Lodge&mdash;Highland Forest</div></p>
+                </div>
+                <div class="image">
+                    <iframe style="border:0" frameborder="0" height="350" width="100%"src="https://www.google.com/maps/embed/v1/place?q=skyline%20lodge&key=AIzaSyDjmXiNL8ODwxP_IvpkeaXdkfKL1ThHdkQ" allowfullscreen></iframe>
+                </div>
+            </div>
+            </br>
+            </br>
+            <div class="spotlight">
+                <div class="content">
+                    <h4>The Welcome Party</h4>
+                    <p><div>May 24th, 2019</div>
+                    <div>Empire Farm Brewery</div>
+                    </br>
+                    <div style="font-size:14px;"><i>Everyone welcome 8-10PM</i></div>
+                    <div style="font-size:14px;"><i>For light snacks and beer</i></div>
+                    </p>
+                    <p>
+                </div>
+                <div class="image">
+                    <iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=embire%20brew%20company%20cazenovia&key=AIzaSyDjmXiNL8ODwxP_IvpkeaXdkfKL1ThHdkQ" allowfullscreen></iframe>
+                </div>
+            </div>
+            </br>
+            </br>
+            <div class="spotlight">
+                <div class="content">
+                    <h4>The Hotel</h4>
+                    <p><div>May 24-26 2019</div>
+                    <div>Hampton Inn & Suites Cazenovia</div>
+                    <div style="font-size:14px;"><i>Book before March 9th</i></div>
+                    </p>
+                    <p>
+                </div>
+                <div class="image">
+                    <div><a class="button special" href="https://hamptoninn.hilton.com/en/hp/groups/personalized/S/SYRCZHX-FWW-20190524/index.jhtml?WT.mc_id=POG">Click here to book</a></iframe></div>
+                </div>
+            </div>
+        </header>
+        <ul class="icons major">
+            {{ range .Site.Params.one.icon }}
+            <li><span class="icon {{ .icon }} major style{{ .style }}"><span class="label">{{ .label }}</span></span></li>
+            {{ end }}
+        </ul>
+    </div>
+</section>
+{{ end }}
