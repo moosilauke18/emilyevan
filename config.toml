@@ -43,3 +43,7 @@ title = "Home"
 [[params.menu.main]]
 url = '/registry'
 title = "Registry"
+
+[[params.menu.main]]
+url = '/things-to-do'
+title = "Things To Do"
