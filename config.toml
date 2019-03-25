@@ -7,6 +7,9 @@ theme = "spectral"
 fancytitle = "Emily Waterman + Evan Farrell"
 description = "Cazenovia, NY<br/ ><div style='font-size:25px'>MAY 25TH 2019</div>"
 copyright = "Evan Farrell"
+StartbuttonText = "RSVP"
+StartbuttonLink = "/rsvp"
+Formsite = "https://rsvp.evanemily.com"
 
 [params.one]
 enable = true
@@ -43,6 +46,10 @@ title = "Home"
 [[params.menu.main]]
 url = '/registry'
 title = "Registry"
+
+[[params.menu.main]]
+url = '/rsvp'
+title = "RSVP"
 
 [[params.menu.main]]
 url = '/things-to-do'

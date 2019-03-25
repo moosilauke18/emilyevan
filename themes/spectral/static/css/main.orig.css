@@ -2747,3 +2747,9 @@ time.icon {
     background-color: #e5e5e5 !important;
     color: #38496c !important;
 }
+input[type="submit"].special.rsvp, input[type="reset"].special.rsvp, input[type="button"].special.rsvp, button.special.rsvp, .button.special.rsvp {
+    background-color: #ed4933 !important;
+}
+input[type="submit"].special.rsvp:hover, input[type="reset"].special.rsvp:hover, input[type="button"].special.rsvp:hover, button.special.rsvp:hover, .button.special.rsvp:hover {
+    background-color: #ef5e4a !important;
+}

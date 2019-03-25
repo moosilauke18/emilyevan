@@ -6,10 +6,20 @@
     <description>Recent content on Evan and Emily Wedding</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Feb 2019 18:21:38 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 24 Mar 2019 16:51:31 -0400</lastBuildDate>
     
 	<atom:link href="https://evanemily.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rsvp</title>
+      <link>https://evanemily.com/rsvp/</link>
+      <pubDate>Sun, 24 Mar 2019 16:51:31 -0400</pubDate>
+      
+      <guid>https://evanemily.com/rsvp/</guid>
+      <description>RSVP Enter your 6 character code from the back of your invite into the below box
+           </description>
+    </item>
     
     <item>
       <title>Things to Do</title>
